@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Management System</title>
+</head>
+<body>
+  <header>
+    <h1>Gym Management System</h1>
+    <nav>
+      <a href="#members">Members</a> |
+      <a href="#trainers">Trainers</a> |
+      <a href="#plans">Plans</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Members Section -->
+  <section id="members">
+    <h2>Member Registration</h2>
+    <form>
+      <label>Full Name:</label>
+      <input type="text" name="name" required><br><br>
+
+      <label>Age:</label>
+      <input type="number" name="age" required><br><br>
+
+      <label>Membership Plan:</label>
+      <select name="plan">
+        <option>Monthly</option>
+        <option>Quarterly</option>
+        <option>Yearly</option>
+      </select><br><br>
+
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <!-- Trainers Section -->
+  <section id="trainers">
+    <h2>Our Trainers</h2>
+    <ul>
+      <li>John Doe – Strength Trainer</li>
+      <li>Jane Smith – Cardio Specialist</li>
+      <li>Mike Johnson – Yoga Instructor</li>
+    </ul>
+  </section>
+
+  <!-- Plans Section -->
+  <section id="plans">
+    <h2>Membership Plans</h2>
+    <table border="1" cellpadding="8">
+      <tr>
+        <th>Plan</th>
+        <th>Duration</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Monthly</td>
+        <td>30 Days</td>
+        <td>$50</td>
+      </tr>
+      <tr>
+        <td>Quarterly</td>
+        <td>90 Days</td>
+        <td>$120</td>
+      </tr>
+      <tr>
+        <td>Yearly</td>
+        <td>365 Days</td>
+        <td>$400</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@gymmanagement.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Address: Fitness Street, Your City</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gym Management System. All rights reserved.</p>
+  </footer>
+</body>
+</html>

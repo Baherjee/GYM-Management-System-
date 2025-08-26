@@ -1,0 +1,1 @@
+A Gym Management System helps manage members, trainers, and fitness plans efficiently. It allows easy member registration, tracks memberships, and organizes workout schedules. The system also manages payments, trainers’ details, and contact information, making gym operations smooth, time-saving, and user-friendly for both staff and members.
